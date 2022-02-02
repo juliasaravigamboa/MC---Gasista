@@ -10,7 +10,7 @@ h1 {
     font-size: 38px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-top: 3em;
+    margin-top: 6em;
     margin-bottom: 1em; 
     animation-duration: 2s;
     animation-name: "zoom-in";
@@ -149,7 +149,6 @@ li.tiposClases:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    justify-content: center;
     padding: 2em;
 }
 a.itemListServicios {
@@ -168,7 +167,11 @@ a.itemListServicios {
     margin-left: 0em;
 }
 
+a.btn.btn-primary{
+    color: white;
+}
 /* QUIENES SOMOS*/
+
 
 #quienesSomos{
     margin-top: 3em;
@@ -194,6 +197,25 @@ a.itemListServicios {
     align-items: center;
     justify-content: center;
 }
+/* Nuestros trabajos*/
+.accordeon-button.collapsed{
+    color: #5271ff;
+    background-color: rgb(245, 238, 238);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.accordion-button {
+    color: #5271ff;
+    background-color: rgb(245, 238, 238);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+.accordion-body{
+    background-color: rgb(245, 238, 238);
+    color:rgb(17, 17, 17);
+}
 
 /* NUESTREOS TRABAJOS*/
 .videosFace{
@@ -205,6 +227,14 @@ a.itemListServicios {
     align-items: stretch;
     margin-left: 2em;
     margin-right: 2em;
+}
+.container-fluid{
+    align-content: center;
+}
+.btn{
+    color: #5271ff;
+    border:solid
+
 }
 
 /* FOOTER*/
@@ -564,7 +594,7 @@ input[type="reset"]{
         font-size: 40px;
         text-align: center;
         font-family: 'Roboto', sans-serif;
-        margin-top: 1em;
+        margin-top: 6em;
         margin-bottom: 1em;    
     }
     h2{
