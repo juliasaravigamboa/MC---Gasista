@@ -7,7 +7,7 @@
     padding: 0;
 }
 
- // GENERALES------------------------------------------------
+ // GENERALES---------------------------------------------
 h1 {
     color: $colorPredeterminado;
     font-size: 38px;
@@ -90,10 +90,10 @@ li.tiposClases {
     &hover{height: 60px; 
             width: 200x;
 
-    }
-
-    
+    } 
 }
+
+
 #ofrecemos{
     display: flex;
     flex-direction: row;
@@ -123,4 +123,99 @@ a.itemListServicios {
 
 a.btn.btn-primary{
     color: white;
+}
+
+// CONTACTO --------------------------------------
+form{
+    color:$colorPredeterminado;
+    font-family: $tipografia;
+    margin-left: 2em;
+}
+
+input {
+    width: 40%;
+  }
+  
+input[type=text] {
+    padding: 10px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=email] {
+        padding: 10px 12px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 4px;
+}     
+label{
+    color: $colorPredeterminado;
+    font-size: 20px;
+    font-family: $tipografia;
+}
+input [type=checkbox]{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type=submit]{
+    width: 200px;
+    height: 50px; 
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: $tipografia; 
+    background-color:$colorPredeterminado;
+}
+
+.btn-light{
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: $tipografia; 
+    background-color:$colorPredeterminado;
+}
+//QUIENES SOMOS ----------------------------------
+
+#quienesSomos{
+    margin-top: 3em;
+    margin-right: 3em;
+    text-align: justify;
+    font-style: italic;
+}
+.imagenCentrada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+
+}
+.containerQuienesSomos{
+    margin-top: 5em;;
+    background-color: $colorFondo;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+    grid-template-areas: "imagen descripcion";        
+    align-items: center;
+    justify-content: center;
+}
+
+
+// SERVICIOS ------------------------------------
+.accordion-button{
+    font-family: $tipografia; 
+    background-color: $colorPredeterminado;
+}
+
+//NUESTROS TRABAJOS-----------------------------
+.videosFace{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    align-items: stretch;
+    margin-left: 2em;
+    margin-right: 2em;
 }
